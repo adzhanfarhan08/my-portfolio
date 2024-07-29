@@ -14,7 +14,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
   useEffect(() => {
     if (contentRef.current) {
-      gsap.fromTo(contentRef.current, { opacity: 0, x: 0, y: 100 }, { opacity: 1, x: 0, y: 0, duration: 2, ease: 'power4.out' });
+      gsap.fromTo(contentRef.current, { opacity: 0, x: 100, y: 0 }, { opacity: 1, x: 0, y: 0, duration: 2, ease: 'power4.out' });
     }
   }, [location]);
 

@@ -80,7 +80,7 @@ const Home: React.FC = () => {
         </div>
 
         {/* Contact Section */}
-        <div className="flex items-center justify-center w-full h-full">
+        {/* <div className="flex items-center justify-center w-full h-full">
           <div className="text-center">
             <h2 className="text-2xl font-semibold mb-4">Get in Touch</h2>
             <p className="text-base mb-4">Feel free to reach out to me via email or connect with me on social media.</p>
@@ -88,7 +88,7 @@ const Home: React.FC = () => {
               you@example.com
             </a>
           </div>
-        </div>
+        </div> */}
       </Slider>
     </div>
   );

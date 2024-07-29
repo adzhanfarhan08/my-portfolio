@@ -13,7 +13,7 @@ const categories: Categories = {
 
 const Gallery: React.FC = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen p-4">
+    <div className="flex flex-col items-center justify-center h-screen">
       {Object.keys(categories).map((category) => (
         <div key={category} className="my-5 w-full">
           <h2 className="text-3xl font-semibold my-10 text-center">{category}</h2>
