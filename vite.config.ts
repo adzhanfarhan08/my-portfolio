@@ -15,7 +15,7 @@ export default defineConfig({
   build: {
     outDir: 'dist', // Atur direktori output ke 'dist'
   },
-  base: '/my-portfolio//',
+  base: '/',
   plugins: [react()],
   resolve: {
     alias: {
