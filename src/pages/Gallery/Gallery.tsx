@@ -7,7 +7,7 @@ type Categories = {
 
 // Mendefinisikan data kategori dengan jalur gambar yang benar
 const categories: Categories = {
-  'Landing Page': ['/images/portfolio/landing_page/1_landing_page.webp', '/images/portfolio/landing_page/2_landing_page.webp', '/images/portfolio/landing_page/2_landing_page.webp'],
+  'Landing Page': ['/images/portfolio/landing_page/1_landing_page.webp', '/images/portfolio/landing_page/2_landing_page.webp'],
   Marketplace: ['/images/portfolio/marketplace/1_pharma_pos.webp'],
 };
 

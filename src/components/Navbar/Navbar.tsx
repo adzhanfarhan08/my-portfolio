@@ -10,12 +10,12 @@ export const Navbar = () => {
         <Link to="/gallery" className="relative block after:block after:w-0 after:h-0.5 after:bg-black after:transition-all after:duration-300 hover:after:w-full">
           Gallery
         </Link>
-        <Link to="/article" className="relative block after:block after:w-0 after:h-0.5 after:bg-black after:transition-all after:duration-300 hover:after:w-full">
+        {/* <Link to="/article" className="relative block after:block after:w-0 after:h-0.5 after:bg-black after:transition-all after:duration-300 hover:after:w-full">
           Article
         </Link>
         <Link to="/socialmedia" className="relative block after:block after:w-0 after:h-0.5 after:bg-black after:transition-all after:duration-300 hover:after:w-full">
           Social Media
-        </Link>
+        </Link> */}
       </nav>
     </div>
   );
